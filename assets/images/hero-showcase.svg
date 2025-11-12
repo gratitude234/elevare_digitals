@@ -1,0 +1,42 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3A1C71" />
+      <stop offset="50%" stop-color="#D76D77" />
+      <stop offset="100%" stop-color="#FFAF7B" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 240) rotate(90) scale(320)">
+      <stop offset="0%" stop-color="#FFEACF" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#FFEACF" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="screen" x1="120" y1="190" x2="520" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117" />
+      <stop offset="1" stop-color="#1F2933" />
+    </linearGradient>
+    <linearGradient id="accent" x1="180" y1="140" x2="460" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7B61FF" />
+      <stop offset="1" stop-color="#4CE2FF" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="640" rx="48" fill="url(#bg)" />
+  <circle cx="320" cy="240" r="260" fill="url(#glow)" />
+  <rect x="110" y="180" width="420" height="280" rx="28" fill="#0B1120" fill-opacity="0.65" stroke="rgba(255,255,255,0.25)" stroke-width="2" opacity="0.8" />
+  <rect x="130" y="200" width="380" height="240" rx="22" fill="url(#screen)" />
+  <rect x="150" y="220" width="120" height="200" rx="16" fill="#111827" />
+  <rect x="190" y="250" width="40" height="40" rx="12" fill="#7B61FF" opacity="0.6" />
+  <rect x="190" y="310" width="40" height="40" rx="12" fill="#38BDF8" opacity="0.6" />
+  <rect x="190" y="370" width="40" height="40" rx="12" fill="#22D3EE" opacity="0.6" />
+  <rect x="290" y="240" width="200" height="32" rx="16" fill="#F9FAFB" opacity="0.9" />
+  <rect x="290" y="290" width="180" height="20" rx="10" fill="#CBD5F5" opacity="0.7" />
+  <rect x="290" y="325" width="150" height="20" rx="10" fill="#CBD5F5" opacity="0.5" />
+  <rect x="290" y="360" width="200" height="20" rx="10" fill="#7B61FF" opacity="0.6" />
+  <rect x="290" y="395" width="140" height="20" rx="10" fill="#F9FAFB" opacity="0.8" />
+  <circle cx="320" cy="480" r="110" fill="#0B1120" fill-opacity="0.5" />
+  <path d="M200 480C230 440 410 440 440 480" stroke="url(#accent)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity="0.55" />
+  <circle cx="200" cy="480" r="14" fill="#22D3EE" />
+  <circle cx="440" cy="480" r="14" fill="#7B61FF" />
+  <path d="M140 180L160 120L210 150" stroke="rgba(255,255,255,0.5)" stroke-width="10" stroke-linecap="round" />
+  <path d="M490 530L520 590L560 540" stroke="rgba(12, 6, 23, 0.3)" stroke-width="12" stroke-linecap="round" />
+  <circle cx="500" cy="180" r="22" fill="#4CE2FF" opacity="0.85" />
+  <circle cx="150" cy="520" r="18" fill="#FFAF7B" opacity="0.85" />
+</svg>
