@@ -167,16 +167,10 @@ h3 {
     letter-spacing: -0.01em;
 }
 
-.brand-mark {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #c0763d 0%, #e7aa6e 55%, #f3d7b7 100%);
-    color: #3d1f10;
-    font-weight: 800;
+.brand-logo {
+    display: block;
+    height: 44px;
+    width: auto;
 }
 
 .nav {
